@@ -1,0 +1,269 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('media.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 100px;
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+    color: #000;
+    font-weight: bold;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.profile {
+    background-color: #007BFF; /* Blue background */
+    color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile p {
+    margin: 10px 0;
+}
+
+.product-listing {
+    background-color: #007BFF; /* Blue background */
+    color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.product-listing img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-listing h2 {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.product-listing p {
+    color: #fff;
+}
+
+.search-bar {
+    margin: 20px 0;
+}
+
+.search-bar input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+}
+
+.auth-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #000; /* Black background */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.auth-form {
+    background: #fff; /* White background */
+    color: #000; /* Black text color for contrast */
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1;
+}
+
+.auth-form h2 {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.auth-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #000; /* Black label color */
+}
+
+.auth-form input[type="text"],
+.auth-form input[type="password"],
+.auth-form input[type="email"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #f5f5f5; /* Light background for inputs */
+    color: #000; /* Black text color */
+}
+
+.auth-form input[type="submit"] {
+    background-color: #000; /* Black background for submit button */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.auth-form input[type="submit"]:hover {
+    background-color: #333;
+}
+
+.contact-us {
+    background: #000; /* Black background */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.contact-us a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-us a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #000; /* Black background */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.social-media a {
+    margin: 0 5px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.auth-form .social-signup {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.auth-form .social-signup p {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: #000; /* Optional: adjust color for better contrast */
+}
+
+.auth-form .social-button {
+    display: inline-block;
+    width: calc(50% - 15px); /* Adjust width for spacing */
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.auth-form .social-button.gmail {
+    background-color: #4285F4; /* Gmail blue */
+}
+
+.auth-form .social-button.gmail:hover {
+    background-color: #357ae8; /* Darker shade for hover effect */
+}
+
+.auth-form .social-button.icloud {
+    background-color: #0071e3; /* iCloud blue */
+}
+
+.auth-form .social-button.icloud:hover {
+    background-color: #005bb5; /* Darker shade for hover effect */
+}
+
+/* Container for social media and WhatsApp button */
+.contact-social-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between social media icons and WhatsApp button */
+    margin-top: 15px; /* Space above the container */
+}
+
+/* Social Media Icons */
+.social-media {
+    display: flex;
+    gap: 10px; /* Space between social media icons */
+}
+
+.social-media img {
+    width: 30px; /* Adjust icon size as needed */
+    height: 30px; /* Adjust icon size as needed */
+}
+
+/* WhatsApp Contact Button */
+.whatsapp-contact {
+    display: flex;
+    align-items: center;
+}
+
+.whatsapp-button {
+    background-color: #25D366; /* WhatsApp green color */
+    color: #ffffff; /* White text color */
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E; /* Darker green for hover effect */
+}
